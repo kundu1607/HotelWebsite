@@ -1,0 +1,207 @@
+.card {
+  display: flex;
+}
+
+/* ------------------------ section 3------------------ */
+
+.container {
+  display: flex;
+}
+
+#text {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+#image {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+/* @media(max-width:500px) {
+  #image {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+} */
+
+/* <!--------------------------  4th section ------------------------> */
+#room-heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* <!--------------------------  5th section ------------------------> */
+#service-heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.service {
+  display: flex;
+}
+
+.sub-service {
+  display: flex;
+  margin-top: 40px;
+}
+
+.sub-service:nth-child(2) {
+  position: relative;
+  left: -50px;
+}
+
+.sub-service:nth-child(3) {
+  position: relative;
+  left: -100px;
+}
+
+.sub-service:nth-child(4) {
+  position: relative;
+  left: -150px;
+}
+
+.img-icon {
+  border: 1px solid red;
+  border-radius: 50%;
+  background-color: brown;
+  width: 180px;
+  height: 100px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.center-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* <!--------------------------  6th section ------------------------> */
+#background {
+  height: 200px;
+  display: flex;
+  margin-top: 60px;
+  background-image: url(bootstrap/counter-bg.webp);
+  align-items: center;
+  justify-content: space-around;
+}
+
+.number-text {
+  color: #fff;
+}
+
+
+/* <!--------------------------  7th section ------------------------> */
+#staff {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-title {
+  background-color: brown;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* <!--------------------------  8th section ------------------------> */
+#gallery {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/* <!--------------------------  8th section ------------------------> */
+#price {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/* <!--------------------------  9th section ------------------------> */
+.container {
+  display: flex;
+}
+
+.card-body>h2 {
+  text-decoration: underline;
+  text-align: center;
+
+}
+
+.button {
+  border-radius: 20px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+/* <!--------------------------  10th section ------------------------> */
+#blog {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px
+}
+
+
+/* <!--------------------------  11th section ------------------------> */
+
+.container {
+  margin-top: 50px;
+
+}
+
+.container>.footer-logo {
+  display: flex;
+}
+
+.footer-logo>.footer-img {
+  margin: 20px;
+}
+
+
+
+/* -----------------------------------------------12th section -------------------------------- */
+input[type="text"] {
+  width: 300px;
+  padding: 5px;
+}
+
+input[type="number"] {
+  width: 300px;
+  padding: 5px;
+}
+
+input[type="date"] {
+  width: 300px;
+  padding: 5px;
+}
+
+#select {
+  width: 300px;
+  padding: 5px;
+}
+
+#btn {
+  padding: 3px;
+  background-color: blanchedalmond;
+  color: chartreuse;
+  justify-content: center;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+#form {
+  background-color: blueviolet;
+  width: 470px;
+  padding: 3px;
+  margin: auto;
+}
